@@ -32,6 +32,19 @@ PySyft has also been explained in videos on YouTube:
  - [Introduction to PySyft codebase by @andreiliphd](https://www.youtube.com/watch?v=1Zw08_4ufHw)
  - [Differential Privacy & Federated Learning explained using PySyft by Jordan Harrod](https://www.youtube.com/watch?v=MOcTGM_UteM)
 
+## Install manually
+
+```bash
+git clone https://github.com/Allen191819/PySyft
+git checkout Allen191819
+cd PySyft
+conda create -n syft-duet python=3.7
+conda activate syft-duet
+pip install -r requirements.txt
+pip install -e .
+conda install jupyter notebook
+```
+
 ## Pre-Installation
 
 PySyft is available on PyPI and Conda.
